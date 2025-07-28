@@ -227,7 +227,7 @@ export default function Contacto() {
                     <Phone className="h-6 w-6 text-primary" />
                     <div>
                       <h3 className="font-medium">Teléfono</h3>
-                      <p className="mt-1 text-muted-foreground">+34 900 123 456</p>
+                      <p className="mt-1 text-muted-foreground">+34 644 60 92 59</p>
                       <p className="text-sm text-muted-foreground">Lunes a viernes, 9:00 - 18:00</p>
                     </div>
                   </CardContent>

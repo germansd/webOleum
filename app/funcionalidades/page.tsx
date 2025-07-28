@@ -77,13 +77,13 @@ export default function Funcionalidades() {
                   </ul>
                 </div>
               </div>
-              <div className="relative flex items-center justify-center">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+                <div className="relative flex items-center justify-center">
+                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px] flex items-center justify-center bg-white">
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
-                    alt="Gestión de clientes OLEUMEXTRA"
-                    fill
-                    className="object-cover"
+                  src="/clientes.png"
+                  alt="Gestión de clientes OLEUMEXTRA"
+                  fill
+                  className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
                   />
                 </div>
               </div>
@@ -92,12 +92,13 @@ export default function Funcionalidades() {
             {/* Pedidos y ventas */}
             <div className="grid gap-8 md:grid-cols-2 md:gap-12">
               <div className="order-2 flex flex-col justify-center md:order-1">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px] flex items-center justify-center bg-white">
+                
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/pedidos1.png"
                     alt="Pedidos y ventas OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                   className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
                   />
                 </div>
               </div>
@@ -182,12 +183,14 @@ export default function Funcionalidades() {
                 </div>
               </div>
               <div className="relative flex items-center justify-center">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px] flex items-center justify-center bg-white">
+               
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/facturas.png"
                     alt="Facturación automática OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                                    className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -196,12 +199,14 @@ export default function Funcionalidades() {
             {/* Gestión de maquila */}
             <div className="grid gap-8 md:grid-cols-2 md:gap-12">
               <div className="order-2 flex flex-col justify-center md:order-1">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+              <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px] flex items-center justify-center bg-white">
+
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/maquila.png"
                     alt="Gestión de maquila OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                  className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -290,10 +295,11 @@ export default function Funcionalidades() {
               <div className="relative flex items-center justify-center">
                 <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/productos.png"
                     alt="Control de productos y trazabilidad OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                                     className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -302,12 +308,14 @@ export default function Funcionalidades() {
             {/* Dashboard con KPIs */}
             <div className="grid gap-8 md:grid-cols-2 md:gap-12">
               <div className="order-2 flex flex-col justify-center md:order-1">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+                                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/dashboard1.png"
                     alt="Dashboard con KPIs OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                                      className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -392,12 +400,14 @@ export default function Funcionalidades() {
                 </div>
               </div>
               <div className="relative flex items-center justify-center">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+                                <div className="relative h-[150px] w-full overflow-hidden rounded-lg shadow-xl md:h-[150px]">
+
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/roles.png"
                     alt="Gestión de usuarios y roles OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                                      className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -406,12 +416,14 @@ export default function Funcionalidades() {
             {/* Soporte multiempresa */}
             <div className="grid gap-8 md:grid-cols-2 md:gap-12">
               <div className="order-2 flex flex-col justify-center md:order-1">
-                <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+                               <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
+
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/multiempresa.png"
                     alt="Soporte multiempresa OLEUMEXTRA"
                     fill
-                    className="object-cover"
+                                      className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>

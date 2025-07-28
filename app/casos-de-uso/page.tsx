@@ -97,10 +97,11 @@ export default function CasosDeUso() {
               <div className="relative flex items-center justify-center">
                 <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
                   <Image
-                    src="/placeholder.svg?height=800&width=1200"
+                    src="/multiempresa.png"
                     alt="Cooperativa Olivarera"
                     fill
-                    className="object-cover"
+                                                         className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -114,7 +115,8 @@ export default function CasosDeUso() {
                     src="/placeholder.svg?height=800&width=1200"
                     alt="Almazara familiar"
                     fill
-                    className="object-cover"
+                                                        className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
@@ -242,7 +244,8 @@ export default function CasosDeUso() {
                     src="/placeholder.svg?height=800&width=1200"
                     alt="Aceites con Denominación de Origen"
                     fill
-                    className="object-cover"
+                                                          className="object-contain transition-transform duration-500 ease-in-out hover:scale-105"
+
                   />
                 </div>
               </div>
