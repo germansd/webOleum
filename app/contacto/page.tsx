@@ -250,11 +250,9 @@ export default function Contacto() {
                     <div>
                       <h3 className="font-medium">Oficina central</h3>
                       <p className="mt-1 text-muted-foreground">
-                        Parque Tecnológico de Andalucía
-                        <br />
-                        C/ Severo Ochoa, 27
-                        <br />
-                        29590 Málaga, España
+                        Madrid - España
+                       
+                       Madrid, España
                       </p>
                     </div>
                   </CardContent>

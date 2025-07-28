@@ -103,11 +103,11 @@ export function Footer() {
               </li>
               <li className="flex items-center text-muted-foreground">
                 <Phone className="h-4 w-4 mr-2 text-primary" />
-                +34 900 123 456
+                +34 644 60 92 59
               </li>
               <li className="flex items-start text-muted-foreground">
                 <MapPin className="h-4 w-4 mr-2 text-primary mt-0.5" />
-                <span>Parque Tecnológico, Málaga</span>
+                <span>Madrid, España</span>
               </li>
             </ul>
           </div>

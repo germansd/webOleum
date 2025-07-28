@@ -16,9 +16,7 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             <div className="flex flex-col justify-center">
-              <Badge variant="olive" className="mb-4 w-fit">
-                Versión 2.0 disponible
-              </Badge>
+             
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                 La <span className="gradient-text">transformación digital</span> de tu almazara comienza aquí
               </h1>
@@ -58,7 +56,7 @@ export default function Home() {
               <div className="relative h-[400px] w-full overflow-hidden rounded-lg shadow-xl">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/5 to-secondary/5 z-10"></div>
                 <Image
-                  src="/placeholder.svg?height=800&width=1200"
+                  src="E:\oleum\app\web\oleumextra\lib\img\dashboard.png"
                   alt="Dashboard OLEUMEXTRA"
                   fill
                   className="object-cover"
