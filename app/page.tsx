@@ -176,11 +176,11 @@ export default function Home() {
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-secondary/10 z-10"></div>
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/pedidos.png"
                   alt="Trabajador de almazara usando tablet"
-                  width={800}
-                  height={600}
-                  className="h-full w-full object-cover"
+                  width={900}
+                  height={250}
+                  className="object-cover object-left"
                 />
 
                 {/* Decorative elements */}
