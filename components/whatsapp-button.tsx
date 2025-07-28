@@ -9,7 +9,7 @@ export function WhatsAppButton() {
   const handleClick = () => {
     try {
       const whatsappUrl =
-        "https://wa.me/34900123456?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20OLEUMEXTRA"
+        "https://wa.me/34644609259?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20OLEUMEXTRA"
       window.open(whatsappUrl, "_blank", "noopener,noreferrer")
     } catch (error) {
       console.warn("Error opening WhatsApp:", error)
