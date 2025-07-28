@@ -53,13 +53,13 @@ export default function Home() {
               </div>
             </div>
             <div className="relative flex items-center justify-center">
-              <div className="relative h-[400px] w-full overflow-hidden rounded-lg shadow-xl">
+              <div className="relative h-[450px] w-full overflow-hidden rounded-lg shadow-xl">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/5 to-secondary/5 z-10"></div>
                 <Image
-                  src="E:\oleum\app\web\oleumextra\lib\img\dashboard.png"
+                  src="dashboard.png"
                   alt="Dashboard OLEUMEXTRA"
                   fill
-                  className="object-cover"
+                  className="object-cover object-left"
                   priority
                 />
 
